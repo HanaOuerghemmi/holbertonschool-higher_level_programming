@@ -3,4 +3,6 @@ def print_matrix_integer(matrix=[[]]):
     if matrix is None:
         return None
     for row in matrix:
-        print ("{:d}".format(row))
+        for i in row:
+            print("{:d}".format(i), end=" ")
+        print("")
