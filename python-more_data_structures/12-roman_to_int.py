@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if roman_string is None:
+    if roman_string is None or :
         return 0
-    roman_value = {'I': 1, 'V': 5, 'X' : 10, 'L': 50,
+    rvalue = {'I': 1, 'V': 5, 'X': 10, 'L': 50,
             'C': 100, 'D': 500, 'M': 1000}
     int_value = 0
     for i in range(len(roman_string)):
-        if i > 0 and roman_value[roman_string[i]] > roman_value[roman_string[i - 1]]:
-            int_value += roman_value[roman_string[i]] - 2 * roman_value[roman_string[i - 1]]
+        if i > 0 and rvalue[roman_string[i]] > rvalue[roman_string[i - 1]]:
+            int_value += rvalue[roman_string[i]] - 2 * rvalue[roman_string[i - 1]]
         else:
-            int_value += roman_value[roman_string[i]]
+            int_value += rvalue[roman_string[i]]
     return int_value
