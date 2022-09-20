@@ -4,9 +4,9 @@
 
 class Square:
     """class Square"""
-
-    def __init__(self, size=0):
-        self.size = size
+    def __init__(self, size=0, position=(0, 0)):
+        self.__position = position
+        self.__size = size
 
     @property
     def size(self):
@@ -30,8 +30,8 @@ class Square:
         if type(value) is not tuple:
               raise TypeError(
                   "position must be a tuple of 2 positive integers")
-        else:
-            self.__positon = position
+
+        self.__positon = value
 
     def area(self):
         return self.__size * self.__size
@@ -39,7 +39,12 @@ class Square:
     def my_print(self):
         if self.__size == 0:
             print()
+            return
+
+        [print("") for i in range(0, self.__position[1])]
         for i in range(0, self.__size):
-            for j in range(0, self.__size):
-                print("#", end="")
+            [print(" ", end="") for j in range(0, self.__position[0])]
+            [print("#", end="") for k in range(0, self.__size)]
             print()
+ 
+          
