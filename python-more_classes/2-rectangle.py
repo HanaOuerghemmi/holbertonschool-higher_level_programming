@@ -38,15 +38,15 @@ class Rectangle:
         self.__height = value
 
         """Public instance method calulate area"""
+
     def area(self):
         """area rectangle"""
         return self.__width * self.__height
-    
+
         """Public instance method calculte perimetre"""
+
     def perimeter(self):
         """perimetre rectangle"""
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width + self.__height) * 2
-
-
