@@ -5,7 +5,7 @@
 class Rectangle:
     """Rectangle class"""
 
-    number_of_instances= 0
+    number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         Rectangle.number_of_instances += 1
@@ -72,6 +72,7 @@ class Rectangle:
         return("Rectangle({}, {})".format(self.width, self.height))
 
     """print messsage when an instance Rectangle is deleted"""
+
     def __del__(self):
         Rectangle.number_of_instances -= 1
         """delete"""
