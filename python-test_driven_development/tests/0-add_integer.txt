@@ -62,3 +62,10 @@ Non-Numbers
 	TypeError: a must be an integer
 
 
+If both o a & b aren't integer and non float 
+
+::
+
+	>>> add_integer(float('nan'))
+	Traceback (most recent call last):
+	ValueError: cannot convert float NaN to integer
