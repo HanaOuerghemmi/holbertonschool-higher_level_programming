@@ -1,0 +1,64 @@
+===============================
+ How to Use 0-add_integer.py
+===============================
+
+This module defines an integer addition function ``add_integer(a, b=98)``.
+
+Usage
+=======
+
+``add_integer()`` returns the addition of tow number,
+that value is equivalent to using the ``+`` operator.
+
+::
+
+    >>> add_integer = __import__('0-add_integer').add_integer
+    >>> add_integer(2, 3)
+    5
+
+
+::
+
+    >>> add_integer(2.0, 3)
+    5
+
+::
+
+	>>> add_integer(-2, 3)
+	1
+
+
+::
+
+	>>> add_integer(5, -2)
+	3
+
+::
+
+	>>> add_integer(2, -5)
+	-3
+
+
+The second number b by default 98
+::
+	>>> add_integer(2)
+	100
+
+Non-Numbers
+===========
+
+``add_integer()`` expects that both a and b must be integers or floats, otherwise raise a TypeError exception with the message a must be an integer or b must be an integer.
+
+::
+
+	>>> add_integer(4, "School")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+::
+
+	>>> add_integer("School", 4)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+
