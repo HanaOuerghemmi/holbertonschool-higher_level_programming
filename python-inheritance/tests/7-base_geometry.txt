@@ -8,6 +8,29 @@
 Traceback (most recent call last):
 Exception: area() is not implemented
 
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("checkme", 0)
+Traceback (most recent call last):
+ValueError: checkme must be greater than 0
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("checkme", -100)
+Traceback (most recent call last):
+ValueError: checkme must be greater than 0
+
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("checkme", None)
+Traceback (most recent call last):
+TypeError: checkme must be an integer
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("checkme", "hello")
+Traceback (most recent call last):
+TypeError: checkme must be an integer
+
+
+
 >>> bg.integer_validator("invalid number", "number")
 Traceback (most recent call last):
 TypeError: invalid number must be an integer
