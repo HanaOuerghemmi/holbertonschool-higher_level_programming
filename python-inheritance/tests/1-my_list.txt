@@ -41,6 +41,9 @@ Instantiation
 
 Usage
 =======
+check that the list printed correctly
+
+::
 
 	>>> my_list = MyList()
 	>>> my_list.append(1)
