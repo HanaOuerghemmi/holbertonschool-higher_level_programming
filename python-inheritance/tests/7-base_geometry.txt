@@ -65,4 +65,4 @@ TypeError: integer_validator() missing 1 required positional argument: 'value'
 
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", True)
-nothing
+
