@@ -34,11 +34,6 @@ TypeError: checkme must be an integer
 Traceback (most recent call last):
 TypeError: checkme must be an integer
 
->>> bg = BaseGeometry()
->>> bg.integer_validator("checkme", True)
-Traceback (most recent call last):
-TypeError: checkme must be an integer
-
 
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", [3])
@@ -48,7 +43,9 @@ TypeError: checkme must be an integer
 
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", {3, 4})
-nothing
+Traceback (most recent call last):
+TypeError: checkme must be an integer
+
 
 
 >>> bg.integer_validator("invalid number", "number")
@@ -65,3 +62,7 @@ TypeError: integer_validator() missing 2 required positional arguments: 'name' a
 >>> bg.integer_validator("checkme")
 Traceback (most recent call last):
 TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("checkme", True)
+
