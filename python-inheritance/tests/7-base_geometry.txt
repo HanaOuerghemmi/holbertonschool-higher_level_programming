@@ -1,0 +1,13 @@
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+::
+
+	>>> bg = BaseGeometry()
+	>>> bg = BaseGeometry(None)
+	Traceback (most recent call last):
+	TypeError: BaseGeometry() takes no arguments
+
+::
+
+	>>> print(bg.area)
+	<bound method BaseGeometry.area of <7-base_geometry.BaseGeometry object at ...>>
