@@ -48,8 +48,7 @@ TypeError: checkme must be an integer
 
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", {3, 4})
-Traceback (most recent call last):
-TypeError: checkme must be an integer
+nothing
 
 
 >>> bg.integer_validator("invalid number", "number")
