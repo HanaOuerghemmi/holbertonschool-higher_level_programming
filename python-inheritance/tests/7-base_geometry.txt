@@ -36,7 +36,7 @@ TypeError: checkme must be an integer
 
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", True)
-
+>>>
 
 
 >>> bg = BaseGeometry()
