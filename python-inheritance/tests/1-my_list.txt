@@ -39,4 +39,13 @@ Instantiation
 	Traceback (most recent call last):
 	TypeError: list expected at most 1 argument, got 2
 
+Usage
+=======
+
+	>>> my_list = MyList()
+	>>> my_list.append(1)
+	>>> my_list.append(2)
+	>>> my_list.append(3)
+	>>> print(my_list)
+	[1, 2, 3]
 
