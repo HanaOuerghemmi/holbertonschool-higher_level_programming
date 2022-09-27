@@ -76,3 +76,8 @@ negative number
 
 	>>> my_list.print_sorted()
 	['ab', 'hello', 'school']
+
+::
+
+	>>> print(my_list)
+	['hello', 'ab', 'school']
