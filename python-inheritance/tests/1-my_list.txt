@@ -49,7 +49,6 @@ negative number
 
 ::
 
-	>>> my_list = My_List()
 	>>> my_list.append(1)
 	>>> my_list.append(-4)
 	>>> my_list.append(5)
