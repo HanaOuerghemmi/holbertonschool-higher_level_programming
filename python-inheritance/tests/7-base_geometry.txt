@@ -3,6 +3,11 @@
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", 999)
 
+>>> bg = BaseGeometry()
+>>> bg.area()
+Traceback (most recent call last):
+Exception: area() is not implemented
+
 >>> bg.integer_validator("invalid number", "number")
 Traceback (most recent call last):
 TypeError: invalid number must be an integer
