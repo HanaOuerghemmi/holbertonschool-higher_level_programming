@@ -53,3 +53,10 @@ if ``matrix`` is not a list a typeError is Raised.
 	Traceback (most recent call last):
 	ZeroDivisionError: division by zero
 
+::
+
+	>>> matrix = [[1, 2, 3], [4, 5, 5]]
+	>>> print(matrix_divided(matrix, "5"))
+	Traceback (most recent call last):
+	TypeError: div must be a number
+
