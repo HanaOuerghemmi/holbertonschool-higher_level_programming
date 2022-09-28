@@ -66,4 +66,4 @@ TypeError: integer_validator() missing 1 required positional argument: 'value'
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("checkme", True)
 Traceback (most recent call last):
-TypeError: my_int must be an integer
+TypeError: checkme must be an integer
