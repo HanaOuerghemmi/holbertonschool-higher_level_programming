@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """python input output"""
 
-import json
 
 class Student:
     """ class that defines a student """
@@ -22,4 +21,13 @@ class Student:
         if attrs is None:
             return self.__dict__
         else :
-            return json.dumps(attrs)
+            stds = {}
+            for attribute in attrs:
+                if hasattr(self, attribute):
+                    """ hasattr function, to check if an attribute exist """
+                    stds[attribute] = getattr(self, attribute)
+                    """ 
+                    getattr function returns the value of the
+                    specified attribute from the specified object. 
+                    """
+            return stds
