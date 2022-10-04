@@ -34,12 +34,12 @@ class Student:
             return stds
 
     def reload_from_json(self, json):
-        """ 
+        """
         public method that replaces all attributes of the Student instance
         """
 
         self.__dict__.update(json)
         """
-        The update() method updates the current set, by 
+        The update() method updates the current set, by
         adding items from another set (or any other iterable).
         """
