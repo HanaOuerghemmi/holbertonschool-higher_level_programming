@@ -13,6 +13,7 @@ class Student:
         self.age = age
 
         """ method """
+
     def to_json(self, attrs=None):
         """
         public method that returns the dictionary dscription
@@ -20,14 +21,14 @@ class Student:
         """
         if attrs is None:
             return self.__dict__
-        else :
+        else:
             stds = {}
             for attribute in attrs:
                 if hasattr(self, attribute):
                     """ hasattr function, to check if an attribute exist """
                     stds[attribute] = getattr(self, attribute)
-                    """ 
+                    """
                     getattr function returns the value of the
-                    specified attribute from the specified object. 
+                    specified attribute from the specified object.
                     """
             return stds
