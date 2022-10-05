@@ -53,11 +53,9 @@ class Base:
         if list_objs is None:
             list_dic = []
     
-        for i in list_objs:
-            list_dic = i.to_dictionary()
-        with open(filename, "w") as f:
-            rep = cls.to_json_string(list_dic)
-            f.write(rep)
-
-
-
+        if list_objs:
+            for i in list_objs:
+                list_dic = i.to_dictionary()
+            with open(filename, "w") as f:
+                rep = cls.to_json_string(list_dic)
+                f.write(rep)
