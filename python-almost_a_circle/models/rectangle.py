@@ -4,6 +4,7 @@ from models.base import Base
 class rectangle
 """
 
+
 class Rectangle(Base):
     """class Rectangle that inherits from Base
     """
@@ -12,11 +13,11 @@ class Rectangle(Base):
     """
     initialize
     """
-        id = super().__init__(id)
-        self.width = width
-        self.height = height
-        self.x = x
-        self.y = y
+    id = super().__init__(id)
+    self.width = width
+    self.height = height
+    self.x = x
+    self.y = y
 
     @property
     def width(self):
