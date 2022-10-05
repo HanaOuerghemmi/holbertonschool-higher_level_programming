@@ -3,11 +3,13 @@
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """
     classe Rectangle that inherits from Base
     """
-   def __init__(self, width, height, x=0, y=0, id=None):
+
+    def __init__(self, width, height, x=0, y=0, id=None):
         """Function initialize the attributes of the class
         Parameters
         """
