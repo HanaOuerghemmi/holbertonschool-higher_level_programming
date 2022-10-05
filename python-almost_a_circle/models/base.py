@@ -61,6 +61,7 @@ class Base:
     """
     JSON string to dictionary
     """
+    @staticmethod
     def from_json_string(json_string):
         """
 
