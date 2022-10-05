@@ -78,8 +78,14 @@ class Rectangle(Base):
         """
         metyhod that prints in stdout the Rectangle
         """
+
+        for l in range(self.__y):
+            print()
         for i in range(self.__height):
-            for j in range(self.__width):
+            for j in range(self.__width + self.__x):
+                if j < self.__x:
+                    print(" ", end="")
+                    continue
                 print("#", end="")
             print()
 
