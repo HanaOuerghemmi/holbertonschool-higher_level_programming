@@ -65,3 +65,19 @@ class Square(Rectangle):
                         self.x = kwargs['x']
                     elif i == 'y':
                         self.y = kwargs['y']
+
+            """
+            task 14 square instance to dictionary
+            """
+
+    def to_dictionary(self):
+        """
+        public method that return the dictionary
+        reprentation of a rectangle
+        """
+
+        return {
+            'id': self.id,
+            'x': self.x,
+            'size': self.width,
+            'y': self.y}
