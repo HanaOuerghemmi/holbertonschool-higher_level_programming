@@ -24,7 +24,6 @@ class Base:
         else:
             self.id = id
 
-
         """
         Dictionary to JSON string
         """
@@ -47,7 +46,7 @@ class Base:
         """
         method that write the JSON string to file
         """
-        filename = cls.__name__+ ".json"
+        filename = cls.__name__ + ".json"
         list_dic = []
 
         if list_objs is None:
@@ -58,4 +57,3 @@ class Base:
             list_dic.append(obj.to_dictionary())
         with open(filename, "w") as f:
             f.write(cls.to_json_string(list_dic))
-         
