@@ -93,11 +93,11 @@ class Rectangle(Base):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
             self.id, self.__x, self.__y, self.__width, self.__height)
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """
         method update
         """
-        if len(args) != 0:
+        if args and len(args) != 0:
             for idx in range(len(args)):
                 if idx == 0:
                     self.id = args[idx]
@@ -109,3 +109,18 @@ class Rectangle(Base):
                     self.__x = args[idx]
                 elif idx == 4:
                     self.__y = args[idx]
+        else:
+            if len(kwargs) > 0:
+                key = kwargs.keys()
+                for i in key:
+                    if i == 'id':
+                        self.id = kwargs['id']
+                    elif i == 'width':
+                        self.__width = kwargs['width']
+
+                    elif i == 'height':
+                        self.__height = kwargs['height']
+                    elif i == 'x':
+                        self.__x = kwargs['x']
+                    elif i == 'y':
+                        self.__y = kwargs['y']
