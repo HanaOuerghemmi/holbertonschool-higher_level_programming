@@ -20,3 +20,15 @@ class Square(Rectangle):
     def __str__(self):
         return "[Square] ({}) {}/{} - {}".format(
             self.id, self.x, self.y, self.width)
+
+        """ 
+        task 11 update square add setter 
+        and getter for the public size 
+        """
+    @property
+    def size(self):
+        return self.width
+    @size.setter
+    def size(self, value):
+        self.width = value
+        self.height = value
