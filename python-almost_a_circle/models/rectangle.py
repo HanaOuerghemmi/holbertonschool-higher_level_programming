@@ -124,3 +124,19 @@ class Rectangle(Base):
                         self.__x = kwargs['x']
                     elif i == 'y':
                         self.__y = kwargs['y']
+
+                    """
+                    task 13- rectangle instance to dictionary
+                    """
+
+    def to_dictionary(self):
+        """
+        public method that return the dictionary
+        reprentation of a rectangle
+        """
+
+        return {
+            'x': self.__x,
+            'y': self.__y,
+            'height': self.__height,
+            'width': self.__width}
