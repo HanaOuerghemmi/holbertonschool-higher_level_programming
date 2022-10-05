@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 from models.base import Base
-
+"""
+class rectan,gle
+"""
 
 class Rectangle(Base):
     """class Rectangle that inherits from Base
