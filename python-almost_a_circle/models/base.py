@@ -24,7 +24,6 @@ class Base:
         else:
             self.id = id
 
-
         """
         Dictionary to JSON string
         """
