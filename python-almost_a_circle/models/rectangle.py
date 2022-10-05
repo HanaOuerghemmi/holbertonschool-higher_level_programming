@@ -7,9 +7,10 @@ class Rectangle(Base):
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """Function initialize the attributes of the class
-        Parameters
         """
+        initialize
+        """
+
         id = super().__init__(id)
         self.width = width
         self.height = height
