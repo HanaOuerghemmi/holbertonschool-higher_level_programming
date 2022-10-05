@@ -27,10 +27,10 @@ class Rectangle(Base):
     def height(self):
         return self.__height
 
-     @property
+    @property
     def x(self):
         return self.__x
 
-       @property
+    @property
     def y(self):
         return self.__y  
