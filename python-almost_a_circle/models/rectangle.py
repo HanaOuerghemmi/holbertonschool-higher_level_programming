@@ -92,3 +92,20 @@ class Rectangle(Base):
     def __str__(self):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
             self.id, self.__x, self.__y, self.__width, self.__height)
+
+    def update(self, *args):
+        """
+        method update
+        """
+        if len(args) != 0:
+            for idx in range(len(args)):
+                if idx == 0:
+                    self.id = args[idx]
+                elif idx == 1:
+                    self.__width = args[idx]
+                elif idx == 2:
+                    self.__height = args[idx]
+                elif idx == 3:
+                    self.__x = args[idx]
+                elif idx == 4:
+                    self.__y = args[idx]
