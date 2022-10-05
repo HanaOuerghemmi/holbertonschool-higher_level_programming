@@ -24,6 +24,7 @@ class Base:
         else:
             self.id = id
 
+
         """
         Dictionary to JSON string
         """
@@ -37,3 +38,26 @@ class Base:
         if list_dictionaries is None or list_dictionaries == []:
             return "[]"
         return json.dumps(list_dictionaries)
+
+    """
+    JSON STRING TO FILE
+    """
+    @classmethod
+    def save_to_file(cls, list_objs):
+        """
+        method that write the JSON string to file
+        """
+        filename = cls.__name__+ ".json"
+        list_dic = []
+
+        if list_objs is None:
+            list_dic = []
+    
+        for i in list_objs:
+            list_dic = i.to_dictionary()
+        with open(filename, "w") as f:
+            rep = cls.to_json_string(list_dic)
+            f.write(rep)
+
+
+
