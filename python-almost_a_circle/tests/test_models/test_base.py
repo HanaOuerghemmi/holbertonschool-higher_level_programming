@@ -16,3 +16,11 @@ class TestBase(unittest.TestCase):
         b1 = Base()
         b2 = Base()
         self.assertEqual(b1.id, b2.id - 1)
+
+class TestBase_to_json_string(unittest.TestCase):
+    """ check it """
+
+    def test_to_json_string_rectangle_type(self):
+        r = Rectangle(10, 7, 2, 8, 6)
+        self.assertEqual(str, type(Base.to_json_string([r.to_dictionary()])))
+
