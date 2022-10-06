@@ -64,10 +64,28 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         """
-
+        hat returns the list of the JSON string
+        representation json_string
         """
 
         if json_string is None or json_string == "":
             return []
         else:
             return json.loads(json_string)
+
+    """
+    Dictionary to Instance
+    """
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        method that returns an instance with 
+        all attributes already set
+        """
+
+        if cls.__name__ == "Rectangle":
+            dummy = cls(1, 1)
+        else:
+            dummy = cls(1)
+        dummy.update(**dictionary)
+        return(dummy)
