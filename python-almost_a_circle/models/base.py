@@ -101,8 +101,9 @@ class Base:
 
         filename = cls.__name__ + ".json"
 
-        if filename is None:
+        try:
+            with open(filename, "r") as f:
+                lis_obj = cls.from_json_string(f.read())
+                return [cls.create(**dic) for dic in lis_obj]
+        except FileNotFoundError:
             return []
-        with open(filename, "r") as f:
-            lis_obj = cls.from_json_string(f.read())
-            return [cls.create(**dic) for dic in lis_obj]
