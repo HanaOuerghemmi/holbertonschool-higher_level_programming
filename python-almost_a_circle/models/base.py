@@ -104,5 +104,5 @@ class Base:
         if filename is None:
             return []
         with open(filename, "r") as f:
-            lis_obj = cls.from_json_string (f.read())
+            lis_obj = cls.from_json_string(f.read())
             return [cls.create(**dic) for dic in lis_obj]
