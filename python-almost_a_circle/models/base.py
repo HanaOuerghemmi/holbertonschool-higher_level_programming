@@ -79,7 +79,7 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
         """
-        method that returns an instance with 
+        method that returns an instance with
         all attributes already set
         """
 
