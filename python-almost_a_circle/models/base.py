@@ -4,6 +4,7 @@ base class
 """
 
 import json
+import csv
 
 
 class Base:
@@ -105,5 +106,47 @@ class Base:
             with open(filename, "r") as f:
                 lis_obj = cls.from_json_string(f.read())
                 return [cls.create(**dic) for dic in lis_obj]
+        except FileNotFoundError:
+            return []
+
+    """
+     JSON ok, but CSV?
+    """
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """
+        method that serializez a list to file csv
+        """
+
+        filename = cls.__name__ + ".csv"
+        with open(filename, "w", newline='') as f:
+            if list_objs is None or list_objs == []:
+                f.write("[]")
+            else:
+                if cls.__name__ == "Rectangle":
+                    fieldnames = ['id', 'width', 'height', 'x', 'y']
+                elif cls.__name__ == "Square":
+                    fieldnames = ['id', 'size', 'x', 'y']
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                for obj in list_objs:
+                    writer.writerow(obj.to_dictionary())
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """
+        method that deserializes in csv
+        """
+        filename = cls.__name__ + ".csv"
+
+        try:
+            with open(filename, "r") as f:
+                instanceList = []
+                reader = csv.DictReader(f)
+                for row in reader:
+                    for key, value in row.items():
+                        row[key] = int(value)
+                    instanceList.append(cls.create(**row))
+                return instanceList
         except FileNotFoundError:
             return []
