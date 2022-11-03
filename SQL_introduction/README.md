@@ -52,7 +52,7 @@ $
 - [x] List tables
 - [x] First table
 - [x] list all
-- [ ] task 7
+- [x] first add
 - [ ] task 8
 - [ ] task 9
 - [ ] task 10
