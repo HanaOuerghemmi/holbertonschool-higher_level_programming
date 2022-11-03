@@ -56,7 +56,7 @@ $
 - [x] crate full tablke
 - [x] list by best
 - [x] best score
-- [ ] task 11
+- [x] update
 - [ ] task 12
 - [ ] task 13
 - [ ] task 14
