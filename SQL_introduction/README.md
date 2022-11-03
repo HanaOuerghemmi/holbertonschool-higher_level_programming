@@ -46,8 +46,8 @@ $
 
 ## Tasks
 
-- [x] #739 Task0
-- [] #740 Task1
+- [x] Task0
+- [x] Task1i #739
 - [] task 2
 - [] task 3
 - [] task 4
