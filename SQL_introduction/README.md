@@ -59,7 +59,6 @@ $
 - [x] update
 - [ ] Delete
 - [x] average
-- [ ] Number by score
-- [ ] task 15
-- [ ] task 16
+- [x] Number by score
+- [x] Say my name
 
