@@ -57,9 +57,9 @@ $
 - [x] list by best
 - [x] best score
 - [x] update
-- [x] Delete
-- [ ] task 13
-- [ ] task 14
+- [ ] Delete
+- [x] average
+- [ ] Number by score
 - [ ] task 15
 - [ ] task 16
 
