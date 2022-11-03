@@ -46,11 +46,11 @@ $
 
 ## Tasks
 
-- [x] Task0
-- [x] Task1i #739
-- [  ] task 2
-- [  ] task 3
-- [  ] task 4
+- [x] List databases
+- [x] Create a database
+- [x] Delete a database
+- [ ] task 3
+- [ ] task 4
 - [  ] task 6
 - [  ] task 7
 - [  ] task 8
