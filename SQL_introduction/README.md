@@ -50,8 +50,8 @@ $
 - [x] Create a database
 - [x] Delete a database
 - [x] List tables
-- [ ] task 4
-- [ ] task 6
+- [x] First table
+- [x] list all
 - [ ] task 7
 - [ ] task 8
 - [ ] task 9
