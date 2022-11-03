@@ -57,7 +57,7 @@ $
 - [x] list by best
 - [x] best score
 - [x] update
-- [ ] task 12
+- [x] Delete
 - [ ] task 13
 - [ ] task 14
 - [ ] task 15
