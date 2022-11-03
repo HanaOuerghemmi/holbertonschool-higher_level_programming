@@ -1,3 +1,3 @@
---full description
+-- full description
 SHOW CREATE TABLE first_table;
 
