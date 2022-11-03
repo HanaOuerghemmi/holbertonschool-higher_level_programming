@@ -53,8 +53,8 @@ $
 - [x] First table
 - [x] list all
 - [x] first add
-- [x] crate table 2
-- [ ] task 9
+- [x] crate full tablke
+- [x] list by best
 - [ ] task 10
 - [ ] task 11
 - [ ] task 12
