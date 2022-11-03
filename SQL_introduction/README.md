@@ -55,7 +55,7 @@ $
 - [x] first add
 - [x] crate full tablke
 - [x] list by best
-- [ ] task 10
+- [x] best score
 - [ ] task 11
 - [ ] task 12
 - [ ] task 13
