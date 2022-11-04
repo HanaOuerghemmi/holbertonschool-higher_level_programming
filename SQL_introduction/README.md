@@ -57,8 +57,9 @@ $
 - [x] list by best
 - [x] best score
 - [x] update
-- [ ] Delete
+- [x] Delete
 - [x] average
 - [x] Number by score
 - [x] Say my name
+- [x] convert database to UTF8
 
