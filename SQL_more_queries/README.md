@@ -80,7 +80,7 @@ $
 - [x]  States table
 - [x]  Cities table
 - [x]  Cities of California
-- [ ] Cities by States
+- [x] Cities by States
 - [ ]  Genre ID by show
 - [ ]  Genre ID for all shows
 - [ ] No genre
