@@ -70,6 +70,7 @@ id  name
 $
 ```
 
+## TASKS
 - [x] lists all privileges
 - [x]  Root user
 - [x]   Read user
@@ -78,7 +79,7 @@ $
 - [x]  Unique ID
 - [x]  States table
 - [x]  Cities table
-- [ ]  Cities of California
+- [x]  Cities of California
 - [ ] Cities by States
 - [ ]  Genre ID by show
 - [ ]  Genre ID for all shows
