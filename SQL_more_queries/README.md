@@ -81,7 +81,7 @@ $
 - [x]  Cities table
 - [x]  Cities of California
 - [x] Cities by States
-- [ ]  Genre ID by show
+- [x]  Genre ID by show
 - [ ]  Genre ID for all shows
 - [ ] No genre
 - [ ]  Number of shows by genre
