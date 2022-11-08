@@ -82,8 +82,8 @@ $
 - [x]  Cities of California
 - [x] Cities by States
 - [x]  Genre ID by show
-- [ ]  Genre ID for all shows
-- [ ] No genre
+- [x]  Genre ID for all shows
+- [x] No genre
 - [ ]  Number of shows by genre
 - [ ] My genres
 - [ ] . Only Comedy
