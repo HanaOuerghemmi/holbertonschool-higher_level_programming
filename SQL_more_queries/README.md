@@ -76,7 +76,7 @@ $
 - [x] Always a name
 - [x] ID can't be null
 - [x]  Unique ID
-- [ ]  States table
+- [x]  States table
 - [ ]  Cities table
 - [ ]  Cities of California
 - [ ] Cities by States
