@@ -77,7 +77,7 @@ $
 - [x] ID can't be null
 - [x]  Unique ID
 - [x]  States table
-- [ ]  Cities table
+- [x]  Cities table
 - [ ]  Cities of California
 - [ ] Cities by States
 - [ ]  Genre ID by show
