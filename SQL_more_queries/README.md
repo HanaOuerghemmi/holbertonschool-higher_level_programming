@@ -97,7 +97,9 @@ Here are the different types of the JOINs in SQL:
 - LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
 - RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
 - FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
-- SQL INNER JOIN  SQL LEFT JOIN  SQL RIGHT JOIN  SQL FULL OUTER JOIN
- 
-  s://www.w3schools.com/sql/img_leftjoin.gif 
 
+ 
+  <img src ="https://www.w3schools.com/sql/img_innerjoin.gif"> 
+  <img src ="https://www.w3schools.com/sql/img_leftjoin.gif"> 
+  <img src="https://www.w3schools.com/sql/img_rightjoin.gif"> 
+  <img src = "https://www.w3schools.com/sql/img_fulljoin.gif">
