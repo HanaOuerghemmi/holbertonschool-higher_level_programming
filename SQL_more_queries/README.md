@@ -84,7 +84,7 @@ $
 - [x]  Genre ID by show
 - [x]  Genre ID for all shows
 - [x] No genre
-- [ ]  Number of shows by genre
+- [x]  Number of shows by genre
 - [ ] My genres
 - [ ] . Only Comedy
 - [ ] List shows and genres
