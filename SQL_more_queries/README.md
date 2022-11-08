@@ -70,9 +70,9 @@ id  name
 $
 ```
 
-[  ]  lists all privileges
-[  ]  Root user
-[  ]  Read user
+[x]  lists all privileges
+[x]  Root user
+[  ]   Read user
 [  ] Always a name
 [  ] ID can't be null
 [  ]  Unique ID
