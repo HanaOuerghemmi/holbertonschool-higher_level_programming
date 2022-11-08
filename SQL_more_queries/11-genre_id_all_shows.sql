@@ -1,4 +1,4 @@
---  that lists all shows contained in the database hbtn_0d_tvshows
+-- that lists all shows contained in the database hbtn_0d_tvshows
 SELECT S.title, G.genre_id
 FROM tv_show S
 LEFT JOIN tv_show_genres G
