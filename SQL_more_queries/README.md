@@ -74,8 +74,8 @@ $
 - [x]  Root user
 - [x]   Read user
 - [x] Always a name
-- [ ] ID can't be null
-- [ ]  Unique ID
+- [x] ID can't be null
+- [x]  Unique ID
 - [ ]  States table
 - [ ]  Cities table
 - [ ]  Cities of California
