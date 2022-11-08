@@ -70,10 +70,10 @@ id  name
 $
 ```
 
-[x]  lists all privileges
-[x]  Root user
-[  ]   Read user
-[  ] Always a name
+- [x] lists all privileges
+- [x]  Root user
+- [  ]   Read user
+- [  ] Always a name
 [  ] ID can't be null
 [  ]  Unique ID
 [  ]  States table
