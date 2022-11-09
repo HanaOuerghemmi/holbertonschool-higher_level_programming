@@ -23,7 +23,8 @@ def main(username, passwd, db):
     c = conn.cursor()
 
     """ TO USE SQL COMMANDE AND EXECUTE IT  """
-    c.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%'  ORDER BY id ASC")
+    c.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%'
+              ORDER BY id ASC")
 
     """
     fetchall is a method that fetches all the remaining tuples
