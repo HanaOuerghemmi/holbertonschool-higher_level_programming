@@ -64,3 +64,7 @@ $ python3
 
 ### TASKS
 
+- [x] Get all states
+- [x] Filter states
+- [ ]
+
