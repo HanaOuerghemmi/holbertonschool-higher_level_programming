@@ -21,7 +21,9 @@ def main(username, passwd, db):
     CREATE A CURSOR OBJECT FOR EXECUTE ALL THE QUERIES WE NEED IT
     """
     c = conn.cursor()
-    c.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id ASC")
+    c.execute("""SELECT *
+                FROM states WHERE name LIKE BINARY 'N%' 
+                ORDER BY id ASC """)
 
     rows = c.fetchall()
     for eachRow in rows:
