@@ -20,7 +20,7 @@ def main(username, passwd, db):
     """
     CREATE A CURSOR OBJECT FOR EXECUTE ALL THE QUERIES WE NEED IT
     """
-    c = db.cursor()
+    c = conn.cursor()
 
     """ TO USE SQL COMMANDE AND EXECUTE IT  """
     c.execute("SELECT id, name FROM states ORDER BY id ASC")
