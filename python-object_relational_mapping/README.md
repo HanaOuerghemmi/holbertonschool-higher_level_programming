@@ -69,4 +69,5 @@ $ python3
 - [x] Filter states by user input
 - [x] SQL Injection
 - [x] Cities by states
+- [x] All cities by state
 
