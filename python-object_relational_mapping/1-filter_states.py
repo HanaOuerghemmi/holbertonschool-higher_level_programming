@@ -22,7 +22,7 @@ def main(username, passwd, db):
     """
     c = conn.cursor()
     c.execute("""SELECT *
-                FROM states WHERE name LIKE BINARY 'N%' 
+                FROM states WHERE name LIKE BINARY 'N%'
                 ORDER BY id ASC """)
 
     rows = c.fetchall()
