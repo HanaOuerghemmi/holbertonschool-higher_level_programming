@@ -21,19 +21,9 @@ def main(username, passwd, db):
     CREATE A CURSOR OBJECT FOR EXECUTE ALL THE QUERIES WE NEED IT
     """
     c = conn.cursor()
+    c.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id ASC")
 
-    """ TO USE SQL COMMANDE AND EXECUTE IT  """
-    c.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%'
-              ORDER BY id ASC")
-
-    """
-    fetchall is a method that fetches all the remaining tuples
-    from the last executed statemebts from a table
-    This method only returns the first row from the defined table
-    and If there are no tuples then it returns an empty list in the output
-    """
     rows = c.fetchall()
-
     for eachRow in rows:
         print(eachRow)
 
