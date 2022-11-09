@@ -29,13 +29,12 @@ def main(username, passwd, db, statename):
                 ORDER BY C.id """, (statename, ))
 
     rows = c.fetchall()
-    for i in range (len(rows)):
+    for i in range(len(rows)):
         if i + 1 < len(rows):
             print(rows[i][0], end=", ")
         else:
             print(rows[i][0], end="")
     print("")
-
 
 
 if __name__ == '__main__':
