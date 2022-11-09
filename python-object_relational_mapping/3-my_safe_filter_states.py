@@ -23,7 +23,7 @@ def main(username, passwd, db, statename):
     c = conn.cursor()
     c.execute("""SELECT *
                 FROM states WHERE name=%s
-                ORDER BY id ASC """,(statename, ))
+                ORDER BY id ASC """, (statename, ))
 
     rows = c.fetchall()
     for eachRow in rows:
