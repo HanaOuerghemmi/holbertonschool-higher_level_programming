@@ -70,4 +70,6 @@ $ python3
 - [x] SQL Injection
 - [x] Cities by states
 - [x] All cities by state
+- [x] First state model
+
 
