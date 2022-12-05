@@ -8,4 +8,3 @@ if (l < 3) {
   console.log('Arguments found');
 }
 
-
