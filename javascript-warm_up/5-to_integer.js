@@ -5,4 +5,3 @@ if (String(number) === 'NaN') {
 } else {
   console.log('My number: ' + number);
 }
-
