@@ -38,4 +38,4 @@ Tasks
 - [x] 4-concat.js :  JavaScript script that prints two arguments passed to it, in the following format: “ is ”
 - [x] 5-to_integer.js : JavaScript script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
 - [x] 6-multi_languages_loop.js:  that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
-
+- [x] 7-multi_c.js: script that prints x times “C is fun”
