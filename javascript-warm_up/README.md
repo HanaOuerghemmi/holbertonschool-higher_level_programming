@@ -35,3 +35,4 @@ Tasks
 - [x]  1 multi_languages.js: JavaScript script that prints three lines.
 - [x] 2 arguments.js: JavaScript script that prints a message depending on the number of arguments passed.
 - [x] 3-value_argument.js: JavaScript script that prints the first argument passed to it:
+- [x] 4-concat.js :  JavaScript script that prints two arguments passed to it, in the following format: “ is ”
