@@ -32,4 +32,4 @@ $ sudo npm install semistandard --global
 Tasks
 
 - [x] 0 First constant, first print
-- [x]
+- [x] 
