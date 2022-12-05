@@ -32,4 +32,5 @@ $ sudo npm install semistandard --global
 Tasks
 
 - [x] 0 First constant, first print:  JavaScript script that creates a constant variable myVar with the value 'Javascript is amazing'.
-- [x]  1-multi_languages.js: JavaScript script that prints three lines.
+- [x]  1 multi_languages.js: JavaScript script that prints three lines.
+- [x] 2 arguments.js: JavaScript script that prints a message depending on the number of arguments passed.
