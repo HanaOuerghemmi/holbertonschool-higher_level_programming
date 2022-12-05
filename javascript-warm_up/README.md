@@ -39,3 +39,4 @@ Tasks
 - [x] 5-to_integer.js : JavaScript script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
 - [x] 6-multi_languages_loop.js:  that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
 - [x] 7-multi_c.js: script that prints x times “C is fun”
+- [x] 8-square.js : script that prints a square
