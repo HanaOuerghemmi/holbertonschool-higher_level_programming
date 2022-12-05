@@ -41,5 +41,6 @@ Tasks
 - [x] 7-multi_c.js: script that prints x times “C is fun”
 - [x] 8-square.js : script that prints a square
 - [x] 9-add.js: script that prints the addition of 2 integers
+- [x] 10-factorial.js: script that computes and prints a factorial
 
 
