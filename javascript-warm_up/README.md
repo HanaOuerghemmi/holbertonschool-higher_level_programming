@@ -44,6 +44,7 @@ Tasks
 - [x] 10-factorial.js: script that computes and prints a factorial
 - [x] script that searches the second biggest integer in the list of arguments.
 - [x] Update a script to replace the value 12 with 89
+- [x]  function that returns the addition of 2 integers. The function must be visible from outside
 
 
 
