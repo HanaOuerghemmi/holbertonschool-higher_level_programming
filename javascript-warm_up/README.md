@@ -47,7 +47,7 @@ Tasks
 - [x]  function that returns the addition of 2 integers. The function must be visible from outside
 - [x] modifies the value of myVar to 333
 - [x] function that executes x times a function.
-- [x] 
+- [x] function that increments and calls a function.
 
 
 
