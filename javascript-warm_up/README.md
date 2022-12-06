@@ -46,6 +46,7 @@ Tasks
 - [x] Update a script to replace the value 12 with 89
 - [x]  function that returns the addition of 2 integers. The function must be visible from outside
 - [x] modifies the value of myVar to 333
+- [x] function that executes x times a function.
 
 
 
