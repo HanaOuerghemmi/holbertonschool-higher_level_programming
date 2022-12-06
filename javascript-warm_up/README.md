@@ -42,5 +42,8 @@ Tasks
 - [x] 8-square.js : script that prints a square
 - [x] 9-add.js: script that prints the addition of 2 integers
 - [x] 10-factorial.js: script that computes and prints a factorial
+- [x] script that searches the second biggest integer in the list of arguments.
+
+
 
 
