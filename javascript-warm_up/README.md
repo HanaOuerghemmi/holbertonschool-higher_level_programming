@@ -48,6 +48,8 @@ Tasks
 - [x] modifies the value of myVar to 333
 - [x] function that executes x times a function.
 - [x] function that increments and calls a function.
+- [x] script by adding a new function incr that increments the integer value.
+
 
 
 
