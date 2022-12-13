@@ -6,10 +6,9 @@ const path = argv[2];
 const data = argv[3];
 
 fs.writeFile(path, data, 'utf8', err => {
-    if (err) {
-        console.error(err);
-        return;
-    }
+  if (err) {
+    console.error(err);
+  }
 }
 
 );
